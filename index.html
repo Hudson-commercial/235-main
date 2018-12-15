@@ -42,7 +42,6 @@
          .car-map {
          height: 20vh;
          }
-
          .google-maps {
          position: relative;
          padding-bottom: 75%; // This is the aspect ratio
@@ -58,9 +57,13 @@
          }
          .sm-hr {
          width: 7%;
-         border-bottom: 4px solid orange;
+         border-bottom: 4px solid #004267;
          }
-          .construction {
+         .sm-hr-white {
+         width: 7%;
+         border-bottom: 4px solid #fff;
+         }
+         .construction {
          position: absolute;
          top: 15.3rem;
          }
@@ -79,7 +82,7 @@
    <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Hudson Commercial</a>
       <ul class="right hide-on-med-and-down">
-         <li><a href="https://hudsoncommercial.com/contact-us/">Contact</a></li>
+         <li><a href="https://hudsoncommercial.com/contact-us/">Contact Us</a></li>
       </ul>
       <ul id="nav-mobile" class="sidenav">
          <li><a href="#">Contact</a></li>
@@ -117,7 +120,7 @@
    <div class = "row">
       <div class = "col s12 m12 l6 ">
          <h3 class="text-center white-text ">ABOUT</h3>
-         <hr class="sm-hr">
+         <hr class="sm-hr-white">
          <br><br>
          <div class="row">
             <div class="card horizontal s6 m-auto">
@@ -129,7 +132,7 @@
          <br>
          <br>
          <h3 class="text-center white-text ">BUILDING </h3>
-         <hr class="sm-hr">
+         <hr class="sm-hr-white">
          <br><br>
          <br>
          <div class="row">
@@ -153,9 +156,8 @@
       </div>
       <div class = "col s12 m12 l6 ">
          <h3 class="text-center white-text ">Info</h3>
-         <hr class="sm-hr">
+         <hr class="sm-hr-white">
          <br><br>
-         <br>
          <div class="card horizontal s6 m-auto">
             <div class="card-content text-hudson">
                <br><br><br>
@@ -203,12 +205,14 @@
                      Perfect for large office needs
                   </p>
                </div>
+               <br>
             </div>
          </div>
       </div>
       <div class="row">
          <div class="col s12 m12 l12 ">
-            <h3 class="text-center text-hudson">LOCATION</h3>
+            <h3 class="text-center white-text">LOCATION</h3>
+            <hr class="sm-hr-white">
             <br><br>
             <div class="card large">
                <div class="card-image">
@@ -267,4 +271,3 @@
 </footer>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="/js/materialize.min.js"></script>
-
